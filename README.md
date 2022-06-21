@@ -7,4 +7,9 @@ Steps to reproduce:
 - `npm ci`
 - Observe how `src/index.ts` and `src/someFile.ts` look.
 - `npx typedoc`
-- Observe how the generated docs look.
+- Observe how the generated docs look. The docs have the following symbols:
+  - `thing1`
+- However, the docs *should* have the following symbols:
+  - `thing1`
+  - `thing2`
+  - `Foo`
