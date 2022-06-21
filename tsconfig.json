@@ -1,0 +1,12 @@
+{
+  // https://www.typescriptlang.org/docs/handbook/compiler-options.html
+  "compilerOptions": {
+    "outDir": "dist",
+
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "moduleResolution": "Node",
+  },
+
+  "include": ["src/**/*.ts"],
+}

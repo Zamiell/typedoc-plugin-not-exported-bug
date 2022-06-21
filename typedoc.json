@@ -1,0 +1,13 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "sort": ["source-order"],
+  "tsconfig": "tsconfig.json",
+  "treatWarningsAsErrors": false,
+  "validation": {
+    "invalidLink": true,
+    "notExported": true
+  },
+  "entryPoints": "src/index.ts",
+  "entryPointStrategy": "Expand",
+  "plugin": ["@zamiell/typedoc-plugin-not-exported"]
+}
