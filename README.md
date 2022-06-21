@@ -1,0 +1,1 @@
+# typedoc-plugin-not-exported-bug
